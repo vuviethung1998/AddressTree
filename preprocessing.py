@@ -49,7 +49,6 @@ def getSentence(data):
 def getChunkingWord(data):
 	""" Return chunking of normalized sentence
 	Agrs: Normalized sentence
-	Ex: ["so 15 pho Nui Truc Quan Ba Dinh thanh pho Ha Noi" -> [[So] [15] [pho] [Nui Truc] [Quan] [Ba Dinh] [Thanh Pho] [Ha Noi]]
 	Return: Lists of chunking word
 	"""
 	idx_lst = getChunkingWord(data)
